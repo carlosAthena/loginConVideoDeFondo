@@ -21,7 +21,7 @@ body {
   padding: 3rem 4rem 0 4rem;
   width: 100%;
   max-width: 525px;
-  min-height: 720px;
+  min-height: 640px;
   background-image: url(Beach.mp4);
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.85);
 }
@@ -61,7 +61,7 @@ video {
 
 @media only screen and (max-width: 400px) {
   video {
-    height: 140%;
+    height: 100%;
 
     .login__input {
       letter-spacing: 0px;
