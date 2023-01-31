@@ -20,25 +20,29 @@ body {
   margin: 5rem auto 0;
   padding: 3rem 4rem 0 4rem;
   width: 100%;
-  max-width: 525px;
-  min-height: 640px;
+  max-width: 500px;
+  min-height: 350px;
   background-image: url(Beach.mp4);
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.85);
 }
 
 .logo {
-  width: 95%;
-  height: 5%;
-  margin: 5%;
+  width: 60%;
+  height: 1%;
+  margin: 1%;
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 7%;
 }
 
 .texto1 {
   color: rgb(141, 137, 137);
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .footer {
-  padding-top: 10%;
+  padding-top: 5%;
   color: rgb(141, 137, 137);
   font-size: 12px;
 }
@@ -53,7 +57,7 @@ video {
   top: 0;
   left: 0;
   width: 100%;
-  height: 184%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -61,7 +65,7 @@ video {
 
 @media only screen and (max-width: 400px) {
   video {
-    height: 180vh;
+    height: 100vh;
 
     .login__input {
       letter-spacing: 0px;
@@ -77,10 +81,9 @@ video {
       background: #303952;
       z-index: 5;
       opacity: 0.7;
-
-      login-container {
-        margin: 2rem auto 0;
-      }
+    }
+    login-container {
+      margin-top: 0;
     }
   }
 }
@@ -185,14 +188,14 @@ video {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   font-size: 0.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .login__label--checkbox {
   display: inline-block;
   position: relative;
   padding-left: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 1rem;
   color: #ffffff;
   font-size: 0.75rem;
@@ -201,10 +204,9 @@ video {
 
 .login__input {
   color: white;
-
   width: 100%;
-  padding: 0.5rem 1rem;
-  border: 2px solid transparent;
+  padding: 0.3rem 1rem;
+  border: 3px solid transparent;
   outline: none;
   border-radius: 1.5rem;
   background-color: rgba(255, 255, 255, 0.25);
@@ -219,7 +221,7 @@ video {
 }
 
 .login__input + .login__label {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .login__input--checkbox {
@@ -234,7 +236,7 @@ video {
   font-family: "Didact Gothic", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   padding: 0.75rem;
   border-radius: 2rem;
   display: block;
@@ -297,7 +299,7 @@ video {
 /* Fondo oscuro */
 
 .overlay {
-  height: 180vh;
+  height: 100vh;
   width: 100vw;
   position: absolute;
   top: 0;
