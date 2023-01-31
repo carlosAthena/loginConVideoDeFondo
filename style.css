@@ -57,6 +57,16 @@ video {
   object-fit: cover;
 }
 
+/* Tamaño del video en pantallas pequeñas  */
+
+@media only screen and (max-width: 400px) {
+  video {
+    height: 140%;
+  }
+  
+  
+  }
+
 .capa {
   position: absolute;
   top: 0;
