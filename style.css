@@ -38,10 +38,10 @@ body {
   display: block;
   position: relative;
   z-index: 6;
-  margin: 2rem auto 0;
+  margin: 0.5rem auto 0;
   padding: 4rem 2rem 0 4rem;
   width: 70vh;
-  height: 70vh;
+  height: 80vh;
   /* min-height: 350px; */
   background-image: url(Beach.mp4);
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.9);
@@ -356,7 +356,7 @@ body {
   padding: 1rem 4rem 0 4rem;
   width: 80%;
   max-width: 500px;
-  height: 70vh;
+  height: 50vh;
   background-image: url(Beach.mp4);
   box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.85);
 
@@ -625,15 +625,6 @@ video {
 }
 
 
-}
-
-
-
-  }
-
-
-
-
 /* Tamaños para escritorio */
 
 
@@ -670,11 +661,11 @@ transition: 0.25s all ease;
 display: block;
 position: relative;
 z-index: 6;
-margin: 4rem auto 0;
+margin: 3rem auto;
 padding: 3rem 4rem 0 4rem;
 width: 80%;
 max-width: 500px;
-height: 88vh;
+height: 87vh;
 background-image: url(Beach.mp4);
 box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.85);
 }
