@@ -54,7 +54,7 @@ body {
 
 .logo {
   width: 100%;
-  height: 50%;
+  height: 70%;
   margin: 1%;
   display: block;
   margin: auto;
@@ -671,13 +671,13 @@ box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.85);
 }
 
 .logo {
-width: 90%;
+width: 60%;
 height: 30%;
 margin: 1%;
 display: block;
 margin: auto;
-margin-top: 5%;
-margin-bottom: 10%;
+margin-top: 2%;
+margin-bottom: 6%;
 }
 
 .texto1 {
