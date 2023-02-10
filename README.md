@@ -2,6 +2,7 @@
 
 Enlace al Login de Athena Pay: https://carlosathena.github.io/loginConVideoDeFondo/
 
-![image](https://user-images.githubusercontent.com/119626823/215882114-003b41cd-29c7-46b0-8777-02ee39a50d09.png)
+![image](https://user-images.githubusercontent.com/119626823/218201181-a286ca0d-d0a0-4d55-878a-245b27a16a63.png)
+
 
 
