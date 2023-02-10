@@ -1,58 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Login - Athena Pay</title>
-    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/0fgkxQ3/Logo-de-Athena-Pay.png">
-    <link href="https://fonts.googleapis.com/css?family=Avant+Garde+Gothic" rel="stylesheet">
-    <link href="https://www.dafontfree.net/embed/ZnV0dXJhLW1lZGl1bSZkYXRhLzQ2L2YvNjEyNDcvZnV0dXJhIG1lZGl1bSBidC50dGY" rel="stylesheet" type="text/css"/>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://i.ibb.co/0fgkxQ3/Logo-de-Athena-Pay.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Avant+Garde+Gothic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
     <div class="loader"></div>
-</div>
-    <div class="login-container">    
-      <form action="" class="form-login">
-      <img class="imgLogo" src="./Logo de Athena Pay.png"
-        alt="Logo de Athena Pay" class="logo">
-     <p class="texto1">The easiest way to get paid with Bitcoin</p>
-        <ul class="login-nav">
-          <li class="login-nav__item active">
-            <a href="#">Sign In</a>
-            
-          </li>
-          <!-- <li class="login-nav__item">
-            <a href="#">Sign Up</a>
-          </li> -->
-        </ul>
-        <label for="login-input-user" class="login__label"> Email </label>
-        <input id="login-input-user" class="login__input" type="text" />
-        <label for="login-input-password" class="login__label">
-          Password
-        </label>
-        <input id="login-input-password" class="login__input" type="password" />
-        <label for="login-sign-up" class="login__label--checkbox">
-          <input
-            id="login-sign-up"
+    <div class="container">
+      <img
+        class="imgLogo"
+        src="./Logo de Athena Pay.png"
+        alt="Logo de Athena Pay"
+        class="logo"
+      />
+      <!-- <h1>Registro</h1> -->
+      <form method="post">
+        <p class="texto1">The easiest way to get paid with Bitcoin</p>
+        <p class="texto2">SIGN IN</p>
+        <div class="main">
+          <input type="text" id="user" name="user" required />
+          <span></span>
+          <label>E-mail</label>
+        </div>
+        <div class="main">
+          <input type="password" id="password" name="password" required />
+          <span></span>
+          <label>Password</label>
+        </div>
+        <input
+          class="remenber"    
+          id="#"
             type="checkbox"
-            class="login__input--checkbox"
-          />
-          Remenber me
+        />
+          <label class="etiqueta">Remenber me
         </label>
-        <button class="login__submit" disabled>Login</button>
+        <input type="button" id="button" value="login" />
+        <div class="signup"></div>
         <p class="footer">By signin up, you agree to our
           Terms and Conditions & Privacy Policy<br><br>
           Version: 5158400</br></br</p>
         </p>
-      </form>      
-      <!-- <a href="#" class="login__forgot">Forgot Password?</a> -->
+      </form>
     </div>
-    <!-- Fondo oscuro  -->
-    <div class="overlay"></div>    
-    <video muted autoplay loop repeat><source src="./Beach.mp4" type="video/mp4"</video>
-    <div class="playa"></div>   
-    <script src="script.js"></script>
+    <div class="overlay"></div>
+    <video muted autoplay loop repeat>
+      <source src="./Beach.mp4" type="video/mp4"
+    </video>
+    <div class="playa"></div>
   </body>
+   <script src="./script.js"></script>
 </html>
